@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #111;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    
+}
+
+.nav {
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    padding-bottom: 1em
+    
+    
+}
+
+.logo {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    background-color: #111;
+}
+
+.links {
+    margin: 20px 0;
+    
+    
+}
+
+.links a {
+    text-decoration: none;
+    margin-right: .3em;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1rem;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    
+}
+
+.links a:hover {
+    color: red;
+    border-bottom: 2px solid #fff;
+}
+
+.hero {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    background-image: url(./Images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    
+}
+
+
+
+.hero__content {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.hero__content p {
+    font-family: 'PT Serif', serif;
+    font-size: 1.1rem;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    text-align: left;
+    width: 95%;
+    margin: auto;
+}
+
+.hero__content h1 {
+    font-size: 3.3rem;
+    text-align: justify;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    text-align: justify;
+    margin: auto;
+    
+}
+
+@media only screen and (min-width: 768px){
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+        
+    }
+    
+    .logo {
+        font-size: .5rem;
+        padding: 10px 10px;
+        
+    }
+    
+    .links a {
+        font-family: 'PT Serif', serif;
+        font-size: 1rem;
+        
+        
+    }
+
+    .hero__content {
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .hero__content p {
+        font-family: 'PT Serif', serif;
+        font-size: 1.3rem;
+        color: #fff;
+        text-shadow: 2px 2px 3px #000;
+        text-align: left;
+        width: 100%;
+        
+        
+    }
+    
+    .hero__content h1 {
+        font-size: 3.3rem;
+        text-shadow: 2px 2px 3px #000;
+        font-family: 'Merriweather', serif;
+        color: #fff;
+        text-align: left;
+        
+        
+    }
+}
