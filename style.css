@@ -69,7 +69,12 @@ body {
     
 }
 
-
+.cell {
+    display: none;
+}
+.ecommerce {
+    display: none;
+}
 
 .hero__content {
     padding: 10px;
@@ -91,7 +96,7 @@ body {
 }
 
 .hero__content h1 {
-    font-size: 3.3rem;
+    font-size: 2.5rem;
     text-align: justify;
     text-shadow: 2px 2px 3px #000;
     font-family: 'Merriweather', serif;
@@ -145,11 +150,164 @@ body {
     }
     
     .hero__content h1 {
-        font-size: 3.3rem;
+        font-size: 4rem;
         text-shadow: 2px 2px 3px #000;
         font-family: 'Merriweather', serif;
         color: #fff;
         text-align: left;
+        
+        
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+    body {
+        background: linear-gradient(#fff 20%, #000 80%);
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+            
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1em
+        
+        
+    }
+    
+    .logo {
+        font-size: 1rem;
+        padding: 5px 5px;
+    }
+    
+    .links a {
+        font-size: 1.1rem;    
+    }
+    
+    .hero {
+        height: 100vh;
+        text-align: justify;
+        position: relative;
+        background-image: url(./Images/1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cell {
+        display: block;
+        width: 50%;
+    }
+
+    .ecommerce {
+        display: block;
+        width: 20%;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+    
+    .hero__content {
+        padding: 100px;
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        
+        
+    }
+    
+    .hero__content p {
+        font-family: 'PT Serif', serif;
+        font-size: 1.1rem;
+        color: #fff;
+        text-shadow: 2px 2px 3px #000;
+        width: 100%;
+        text-align: left;
+        
+    }
+    
+    .hero__content h1 {
+        font-size: 4rem;
+        text-align: justify;
+        text-shadow: 2px 2px 3px #000;
+        font-family: 'Merriweather', serif;
+        color: rgb(7, 2, 70);
+        
+        
+        
+    }
+}
+
+@media only screen and (min-width: 1400px){
+
+    .logo {
+        font-size: 2rem;
+        padding: 5px 5px;
+    }
+    
+    .links a {
+        font-size: 1.3rem;    
+    }
+    
+    .hero {
+        height: 100vh;
+        text-align: justify;
+        position: relative;
+        background-image: url(./Images/1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cell {
+        display: block;
+        width: 50%;
+    }
+
+    .ecommerce {
+        display: block;
+        width: 20%;
+        position: absolute;
+        top: 65%;
+        left: 40%;
+    }
+    
+    .hero__content {
+        padding: 100px;
+        position: absolute;
+        top: 35%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        
+        
+    }
+    
+    .hero__content p {
+        font-family: 'PT Serif', serif;
+        font-size: 1.3rem;
+        color: #fff;
+        text-shadow: 2px 2px 3px #000;
+        width: 100%;
+        text-align: left;
+        
+    }
+    
+    .hero__content h1 {
+        font-size: 5rem;
+        text-align: justify;
+        text-shadow: 2px 2px 3px #000;
+        font-family: 'Merriweather', serif;
+        color: rgb(7, 2, 70);
+        
         
         
     }
